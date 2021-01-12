@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+   <!--google fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400&display=swap" rel="stylesheet">
+   <!--favicon-->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+   <!--css-->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/main.css">
+   <!--js-->
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js-ui/jquery-ui.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>Eunbyul's Portfolio</title>
+  </head>
+  <body>
+    <!-- Modal CV -->
+    <div class="modal-wrapper">
+      <div class="modal">
+        <button id="about_close" type="button" name="button">X</button>
+        <div class="modal_txt">
+          <div class="web_ex">
+            <h2>Web Development Experience</h2>
+            <p> Nov - Dec 2020 <b>Aarpee-Creative</b> </p>
+            <p> - Liaised with a small business to design and build thier responsive website</p>
+            <ul>
+          </div>
+
+          <div class="edu">
+            <h2>Education</h2>
+            <p>July 2020 - Nov 2020 <b>Front-end Goverment funded Boot Camp, South Korea</b></p>
+            <p>Mar 2008 - Feb 2011 <b>Ansan University, South Korea</b> - <i>Radiology</i></p>
+          </div>
+
+          <div class="employ">
+            <h2>UK Employment</h2>
+            <p>Feb 2019 - May 2020 <b>Jigsaw, London</b> - <i> Sales Assistant</i></p>
+            <p>Nov 2018 - Jan 2019 <b>All Saints, London</b> - <i>Temporary Holiday Stylist</i></p>
+            <p>June 2018 - Oct 2018 <b>Whittard of Chelsea, London</b> - <i> Sales Assistant</i></p>
+          </div>
+
+          <div class="etc">
+            <h2>Languages and Other information</h2>
+            <p>Korean (Native-Written and Speaking)<br>
+            English​ (Fluent - Written and Speaking)</p>
+            <p>During the summer of 2017 I volunteered to teach English to children in Cambodia.<br>
+            Since last year, I started wrting articles on my blog,</p>
+          </div>
+        </div><!--modal_txt end-->
+      </div><!--modal end-->
+    </div><!--modal_wrapper end-->
+    <!--frame----------------------------------------->
+    <div id="frame">
+      <div class="top">
+        <a href="#home">
+        <h1>PORTFOLIO</h1>
+        </a>
+        <ul class="sns_icons">
+          <li>
+           <a href="https://github.com/EunbyulNa">
+            <img src="img/github.png" alt="github-img">
+           </a>
+          </li>
+          <li>
+           <a href="https://www.linkedin.com/in/eunbyulna/">
+            <img src="img/linkedin.png" alt="linkiedin-img">
+           </a>
+          </li>
+          <li>
+           <a href="https://las4134.tistory.com/">
+            <img src="img/blog.png" alt="blog-img">
+           </a>
+          </li>
+        </ul>
+      </div>
+      <div class="left">
+        <div class="menu_btn">
+          <div class="hbg_btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div><!--hbg_btn ends-->
+        </div><!--menu_btn ends-->
+        <div class="menu_list">
+          <ul>
+            <li><a href="#home" class="section">HOME</a></li>
+            <li><a href="#about" class="section">ABOUT ME</a></li>
+            <li><a href="#skill" class="section">SKILLS</a></li>
+            <li><a href="#project" class="section">PROJECTS</a></li>
+            <li><a href="#contact" class="section">CONTACT</a></li>
+          </ul>
+        </div><!--menu_list-->
+       </div><!--left ends-->
+      <div class="right"></div><!--right ends-->
+      <div class="bottom">
+       <h1>COPY RIGHT EUNBYUL NA PROCTOR</h1>
+       <h1>Essex, England, United Kingdom</h1>
+     </div><!--bottom ends-->
+    </div><!--frame ends-->
+   <!--mobile version header & menu-------------------->
+   <div id="mobileTop">
+    <h1><a href="#home">PORTFOLIO</a></h1>
+    <ul class="sns_icons">
+      <li>
+       <a href="#">
+        <img src="img/github.png" alt="github-img">
+       </a>
+      </li>
+      <li>
+       <a href="#">
+        <img src="img/linkedin.png" alt="linkiedin-img">
+       </a>
+      </li>
+      <li>
+       <a href="#">
+        <img src="img/blog.png" alt="blog-img">
+       </a>
+      </li>
+    </ul>
+
+    <div class="menu_btn">
+     <div class="hbg_btn">
+      <span></span>
+      <span></span>
+      <span></span>
+     </div><!--hbg_btn ends-->
+    </div><!--menu_btn ends-->
+    <div class="mobile_menu_list">
+      <ul>
+        <li><a href="#home" class="section">HOME</a></li>
+        <li><a href="#about" class="section">ABOUT ME</a></li>
+        <li><a href="#skill" class="section">SKILLS</a></li>
+        <li><a href="#project" class="section">PROJECTS</a></li>
+        <li><a href="#contact" class="section">CONTACT</a></li>
+      </ul>
+    </div><!--mobile_menu_list ends-->
+   </div><!--mobileTop end-->
+  <!--main wrap----------------------------------------->
+   <div id="wrap">
+    <div class="section" id="home">
+     <div class="container">
+      <div class="logo_wrapper">
+        <div class="logo-box">
+          <div class="title">
+           <div class="block"></div>
+            <h1>THINK <span></span></h1>
+          </div><!--title ends-->
+          <div class="title2">
+           <div class="block"></div>
+            <h1>DESIGN <span></span></h1>
+          </div><!--title 2 ends-->
+          <div class="title3">
+            <div class="block"></div>
+             <h1>CODE <span></span></h1>
+          </div><!--title3 end-->
+        </div><!--logo-box end-->
+      </div><!--logo_wrapper end-->
+    </div><!--container end-->
+  </div><!--home section end-->
+<!---about section------------------------------------>
+    <div class="section" id="about">
+     <div class="container">
+         <div class="about_wrapper">
+           <div class="about_pic">
+            <img src="img/me.png" alt="mypic">
+           </div>
+           <div class="about_txt">
+            <p>I am <em>UI/Front-end Web Developer</em> Eunbyul Na Proctor</p>
+            <p><em>Have worked with a client</em> from design to
+            release using<br> web standard <em>HTML5, CSS3, jQuery</em>
+            received excellent<br> customer satisfaction</p>
+            <p>I like <em>writing</em> efficient managable code and <em>reviewing</em>
+            existing <em>developments</em></p>
+            <p>I am ready to begin <em>a new journey</em> with your company ! </p>
+           <p class="about_btn"><button id="about_open" type="button" name="button">More</button></p>
+         </div><!--about_txt end-->
+        </div><!--about_wrapper end-->
+     </div><!--container end-->
+    </div><!--about sec end-->
+<!---skill------------------------------------>
+    <div class="section" id="skill">
+      <div class="container">
+       <div class="skill_wrapper">
+          <div class="skill_wrap_left">
+            <div class="skill_title">
+              <h2> <span></span>Building, Styling, Programming</h2>
+            </div>
+            <div class="skill_list">
+               <div class="skill_box">
+                  <img src="img/htmlicon.png" alt="">
+                 <div class="gauge">
+                   <div class="gauge_box">
+                    <div class="bar"></div>
+                   </div>
+                 </div><!--gauge end-->
+                 <span class="percent" data-num="80">80%</span>
+               </div>
+            </div><!--skill_list end-->
+            <div class="skill_list">
+               <div class="skill_box">
+                  <img src="img/cssicon.png" alt="">
+                 <div class="gauge">
+                   <div class="gauge_box">
+                    <div class="bar"></div>
+                   </div>
+                 </div><!--gauge end-->
+                 <span class="percent" data-num="80">80%</span>
+               </div>
+            </div><!--skill_list end-->
+            <div class="skill_list">
+               <div class="skill_box">
+                  <img src="img/jsicon.png" alt="">
+                 <div class="gauge">
+                   <div class="gauge_box">
+                    <div class="bar"></div>
+                   </div>
+                 </div><!--gauge end-->
+                 <span class="percent" data-num="60">60%</span>
+               </div>
+            </div><!--skill_list end-->
+            <div class="skill_list">
+               <div class="skill_box">
+                  <img src="img/jqicon.png" alt="">
+                 <div class="gauge">
+                   <div class="gauge_box">
+                    <div class="bar"></div>
+                   </div>
+                 </div><!--gauge end-->
+                 <span class="percent" data-num="60">60%</span>
+               </div>
+            </div><!--skill_list end-->
+          </div><!--skill_wrap_left end-->
+          <div class="skill_wrap_right">
+            <div class="skill_title">
+              <h2> <span></span>Framework</h2>
+            </div>
+            <div class="skill_list">
+               <div class="skill_box">
+                  <img src="img/btsicon.png" alt="">
+                 <div class="gauge">
+                   <div class="gauge_box">
+                    <div class="bar"></div>
+                   </div>
+                 </div><!--gauge end-->
+                 <span class="percent" data-num="80">80%</span>
+               </div>
+            </div><!--skill_list end-->
+            <div class="skill_title">
+              <h2><span></span> MORE</h2>
+            </div>
+            <div class="skill_list">
+               <div class="skill_box">
+                  <img src="img/psicon.png" alt="">
+                 <div class="gauge">
+                   <div class="gauge_box">
+                    <div class="bar"></div>
+                   </div>
+                 </div><!--gauge end-->
+                 <span class="percent" data-num="70">70%</span>
+               </div>
+            </div><!--skill_list end-->
+            <div class="skill_list">
+               <div class="skill_box">
+                  <img src="img/xdicon.png" alt="">
+                 <div class="gauge">
+                   <div class="gauge_box">
+                    <div class="bar"></div>
+                   </div>
+                 </div><!--gauge end-->
+                 <span class="percent" data-num="70">70%</span>
+               </div>
+            </div><!--skill_list end-->
+            <div class="skill_list">
+               <div class="skill_box">
+                  <img src="img/githubicon.png" alt="">
+                 <div class="gauge">
+                   <div class="gauge_box">
+                    <div class="bar"></div>
+                   </div>
+                 </div><!--gauge end-->
+                 <span class="percent" data-num="90">90%</span>
+               </div>
+            </div><!--skill_list end-->
+          </div><!--skill_wrap_right end-->
+       </div><!--wrapper end-->
+     </div>
+    </div>
+<!---project------------------------------------>
+  <div class="section" id="project">
+    <div class="container">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+              <div class="slide">
+               <div class="swiper-left">
+                 <a href="http://aarpee-creative.co.uk/" onclick="window.open('http://aarpee-creative.co.uk/')">
+                  <img src="img/aarpee.png" alt="aarpee-project-img">
+                 </a>
+               </div>
+              <div class="swiper-right">
+               <div class="detail-box">
+                <h2>Live Project</h2>
+                <h3><a href="http://aarpee-creative.co.uk/" onclick="window.open('http://aarpee-creative.co.uk/')">aaRPee Creative</a></h3>
+                <div class="color-box">
+                 <span class="color1"></span>
+                 <span class="color2"></span>
+                 <span class="color3"></span>
+               </div>
+               <div class="check-box">
+                <ul>
+                  <li>
+                    <img src="img/checkicon.png" alt="check-icon-img">
+                    <span>HTML5</span>
+                  </li>
+                  <li>
+                    <img src="img/checkicon.png" alt="check-icon-img">
+                    <span>CSS3</span>
+                  </li>
+                  <li>
+                    <img src="img/checkicon.png" alt="check-icon-img">
+                    <span>jQuery</span>
+                  </li>
+                  <li>
+                    <img src="img/checkicon.png" alt="check-icon-img">
+                    <span>Photoshop</span>
+                  </li>
+                  <li>
+                    <img src="img/checkicon.png" alt="check-icon-img">
+                    <span>Slick / Lightwidget</span>
+                  </li>
+                </ul>
+               </div>
+              </div>
+             </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="slide">
+               <div class="swiper-left">
+                <a href="https://eunbyulna.github.io/card/" onclick="window.open('https://eunbyulna.github.io/card/')">
+                 <img src="img/card.png" alt="hyundai-card-project-img">
+                </a>
+              </div>
+              <div class="swiper-right">
+               <div class="detail-box">
+                <h2>Web Renewal</h2>
+                <h3><a href="https://eunbyulna.github.io/card/" onclick="window.open('https://eunbyulna.github.io/card/')">Hyundai Card</a></h3>
+                <div class="color-box2">
+                 <span class="color1"></span>
+                 <span class="color2"></span>
+                 <span class="color3"></span>
+               </div>
+
+               <div class="check-box">
+                <ul>
+                  <li>
+                    <img src="img/checkicon.png" alt="check-icon-img">
+                    <span>HTML5</span>
+                  </li>
+                  <li>
+                    <img src="img/checkicon.png" alt="check-icon-img">
+                    <span>CSS3</span>
+                  </li>
+                  <li>
+                    <img src="img/checkicon.png" alt="check-icon-img">
+                    <span>jQuery</span>
+                  </li>
+                </ul>
+               </div>
+              </div>
+             </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="slide">
+               <div class="swiper-left">
+                 <a href="https://eunbyulna.github.io/resports2/" onclick="window.open('https://eunbyulna.github.io/resports2/')">
+                 <img src="img/lesportsac.png" alt="lesportsac-project-img">
+                </a>
+              </div>
+              <div class="swiper-right">
+               <div class="detail-box">
+                <h2>Clone Web Design/Coding</h2>
+                <h3><a href="https://eunbyulna.github.io/resports2/" onclick="window.open('https://eunbyulna.github.io/resports2/')">Lesportsac</a></h3>
+                <div class="color-box3">
+                 <span class="color1"></span>
+                 <span class="color2"></span>
+                 <span class="color3"></span>
+               </div>
+               <div class="check-box">
+                <ul>
+                  <li>
+                    <img src="img/checkicon.png" alt="check-icon-img">
+                    <span>HTML5</span>
+                  </li>
+                  <li>
+                    <img src="img/checkicon.png" alt="check-icon-img">
+                    <span>CSS3</span>
+                  </li>
+                  <li>
+                    <img src="img/checkicon.png" alt="check-icon-img">
+                    <span>jQuery</span>
+                  </li>
+                </ul>
+               </div>
+              </div>
+             </div>
+            </div>
+          </div>
+        </div>
+       <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+<!---contact------------------------------------>
+<div class="section" id="contact">
+  <div class="container">
+    <div class="contact_wrapper">
+      <div class="contact-box">
+        <div class="contact-title">
+          <div class="block"></div>
+          <h1 class="contact">CONTACT<span></span></h1>
+        </div>
+        <div class="contact-text">
+          <h1>MOBILE : 07545329361</h1>
+          <h1>MAIL : las4134@gmail.com</h1>
+       </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div><!--wrap end-->
+  </body>
+</html>
